@@ -1,0 +1,22 @@
+.modalBackgroundCenter {
+    position: fixed;
+    background-color: rgb(226, 222, 222);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    opacity: 100%;
+}
+.modalContainerCenter {
+    background-color: rgb(255, 251, 251);
+    box-shadow: 5px 5px 7px rgba(255, 255, 255, 0.747);
+    padding: 10px;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+
+}
